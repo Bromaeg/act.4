@@ -8,7 +8,7 @@ Exercises
 4. How could you create a computer player?
 """
 
-from turtle import *
+from turtle import goto, clear, up, down, circle, update, onscreenclick, done, hideturtle, setup, tracer
 
 from freegames import line
 
@@ -62,7 +62,7 @@ grid()
 update()
 onscreenclick(tap)
 done()
-Logo
+"""Logo
 
 Free Python Games
 
@@ -77,3 +77,4 @@ Documentation overview
 Previous: Bagels
 Next: Ant
 Quick search
+"""
